@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897414372028",
+    "project_id": "nit-raipur-f7a49",
+    "storage_bucket": "nit-raipur-f7a49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897414372028:android:e854860e388c1ebde44eb9",
+        "android_client_info": {
+          "package_name": "com.example.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897414372028-3f2grmrge4h3pdm5tbpmvouva86os0lc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2vBanf49IftxQJJD_7YtGrloB1ZBJgFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897414372028-3f2grmrge4h3pdm5tbpmvouva86os0lc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

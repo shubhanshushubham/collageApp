@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="3dp"
+        >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_inst"
+            android:layout_marginTop="3dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:textStyle="bold"
+            android:text="@string/national_institute_of_technology_raipur_n_g_e_road_raipur_n_chhatisgarh_492010"
+            android:textSize="18sp"
+
+            android:padding="2dp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_local_phone_24"
+                android:layout_marginTop="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:textStyle="bold"
+                android:text=" Telephone Number   +91-771-2254200"
+                android:textSize="18sp"
+
+                android:padding="2dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_email_24"
+                android:layout_marginTop="3dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text=" Fax   : +91-771-2254600\n
+Email- director@nitrr.ac.in\n
+registrar@nitrr.ac.in"
+                android:textSize="18sp"
+                android:autoLink="email"
+                android:textColorLink="@color/purple_700"
+            android:textStyle="bold"
+                android:padding="2dp"/>
+        </LinearLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_margin="20dp"
+            android:id="@+id/fst"
+            >
+
+            <!-- Table Heading -->
+
+            <TableRow
+                android:background="@color/red2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="S.No"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Designation"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Contact No"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="1 "
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Arif Khan"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Registrar"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0771-2252700"
+                    android:textColor="@color/black"
+                    android:padding="5sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+<TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="2 "
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Shrish Verma"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="	Dean Office (Academics)"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+91-9755574795"
+                    android:textColor="@color/black"
+                    android:padding="5sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+<TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="3 "
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="	Dr. P. Y. Dhekne"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dean Office (Student Welfare)"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="+91-9669400678"
+                    android:padding="5sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+<TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="	Dr.(Mrs) A. B. Soni,"
+                    android:padding="10sp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dean Office (Faculty Welfare)"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+91-9617777363"
+                    android:padding="5sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+<TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Prabhat Diwan"
+                    android:padding="10sp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dean Office (Research and Consultancy)"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+91-9479221399"
+                    android:padding="5sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+<TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="6 "
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. R.K. Tripathi"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dean Office (Planning and Development)"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0771-2254114"
+                    android:padding="5sp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+<TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="7 "
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.Shubhrata Gupta"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Chief Warden (Girl's Hostel)"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="	+91-9993244929"
+                    android:padding="5sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+<TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Sanjeev Pandey"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="	Sr. Medical Officer (Dispensary)"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+91-8889838150"
+                    android:padding="5sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+<TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Manoj Pradhan"
+                    android:textColor="@color/black"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Chief Warden (Boy's Hostel)"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+91-9826540711"
+                    android:padding="5sp"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+<TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="10 "
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Arif Khan"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Establishment Section"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+91-8602705520"
+                    android:textColor="@color/black"
+                    android:padding="5sp"
+                    android:textSize="12sp"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    />
+
+            </TableRow>
+
+
+
+        </TableLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

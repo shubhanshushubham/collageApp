@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NIT RAIPUR</string>
+    <string name="select_image">Select Image</string>
+
+
+    <string name="faculties">Faculties</string>
+
+    <string name="upload_ebook">JEE Cutoff</string>
+
+    <string name="upload_images">College gallery</string>
+
+    <string name="upload_notice">Announcements</string>
+    <string name="add_image">Add Image</string>
+    <string name="about">About</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="_3rd_national_conference_on_advanced_materials_and_applications"><a href="http://ncama2021.nitrr.ac.in/">3rd National Conference on Advanced Materials and Applications</a></string>
+    <string name="_4th_international_conference_on_information_systems_and_management_science_isms_2021"><a href="http://www.nitrr.ac.in/downloads/events/STTP/2021/Call%20for%20Papers-ISMS2021.pdf"> 4th International Conference on Information Systems and Management Science (ISMS 2021)</a></string>
+    <string name="eworkshop_on_computational_intelligence_and_blockchain_technology_cibt_21"><a href="http://www.nitrr.ac.in/downloads/events/STTP/2021/Brochure_Final.pdf">eWORKSHOP on “Computational Intelligence and Blockchain Technology (CIBT-21)”</a></string>
+    <string name="aicte_training_and_learning_atal_academy_sponsored_one_week_online_faculty_development_program_fdp_on_artificial_intelligence_and_machine_learning"><a href="http://www.nitrr.ac.in/downloads/events/STTP/2021/Final-FDP%20on%20AI%20and%20ML04-08-2021.pdf">AICTE Training and Learning (ATAL) Academy Sponsored One Week Online Faculty Development Program(FDP) on Artificial Intelligence and Machine Learning</a></string>
+    <string name="aicte_training_and_learning_atal_academy_sponsored_one_week_online_faculty_development_program_fdp_on_research_trends_in_separation_and_purification_techniques"><a href="http://www.nitrr.ac.in/downloads/events/STTP/2021/FDP%20Brochure,%20Speakers%20%20Schedule.pdf">AICTE Training and Learning (ATAL) Academy Sponsored One Week Online Faculty Development Program (FDP) On “Research Trends in Separation and Purification Techniques”</a></string>
+
+    <string name="faculty_development_programme_fdp"><a href="http://www.nitrr.ac.in/downloads/events/STTP/2021/Atal%20Novel%20Materials%20Brochure.pdf">Faculty Development Programme (FDP)</a></string>
+    <string name="certificate_courses_on_gis_and_autocad"><a href="http://www.nitrr.ac.in/downloads/events/STTP/2021/CEC_UPLOAD.pdf">certificate courses on GIS and AutoCAD.</a></string>
+    <string name="national_institute_of_technology_raipur_n_g_e_road_raipur_n_chhatisgarh_492010">National Institute of Technology Raipur\n G.E. Road, Raipur\n Chhatisgarh - 492010</string>
+</resources>

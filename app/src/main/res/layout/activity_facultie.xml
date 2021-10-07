@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    tools:context=".FacultieActivity"
+    android:background="@drawable/background">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+                    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHEMICAL FACULTIES"
+                        android:textColor="@color/red2"
+                        android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="D.R A.K.POONIA"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="Associate Professo"
+                    android:textSize="18sp"/>
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                     android:textColorLink="@color/purple_700"
+                    android:text="akpoonia.che@nitrr.ac.in"
+                     android:autoLink="email"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fac1"
+                android:scaleType="center"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="D.R A.B. SONI"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text=" Professo"
+                    android:textSize="18sp"/>
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5" android:autoLink="email"
+                     android:textColorLink="@color/purple_700"
+                    android:text="absoni.chem@nitrr.ac.in"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fac2"
+                android:scaleType="center"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="D.R Bidyut Mazumdar"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="Associate Professo"
+                    android:textSize="18sp"/>
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5" android:autoLink="email"
+                     android:textColorLink="@color/purple_700"
+                    android:text="bmazumdar.che@nitrr.ac.in"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fac3"
+
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="D.R P.K CHAUDHARI"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="Associate Professo"
+                    android:textSize="18sp"/>
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                     android:autoLink="email"
+                    android:text="pkchaudhari.che@nitrr.ac.in"
+                     android:textColorLink="@color/purple_700"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fac4"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+                    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPUTERSCIENCE FACULTIES"
+                        android:textColor="@color/red2"
+                        android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="D.R DILIP SINGH"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Associate Professo"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5" android:autoLink="email"
+                     android:textColorLink="@color/purple_700"
+                    android:text="dssisodia.cs@nitrr.ac.in"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fac5"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="D.R NARESH KUMAR"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="Associate Professo"
+                    android:textSize="18sp"/>
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                     android:autoLink="email"
+                     android:textColorLink="@color/purple_700"
+                    android:text="nknagwani.cs@nitrr.ac.in"
+
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fac6"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="D.R PRADEEP SINGH"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="Associate Professo"
+                    android:textSize="18sp"/>
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="psingh.cs@nitrr.ac.in"
+                     android:textColorLink="@color/purple_700"
+                     android:autoLink="email"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fac7"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+                     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CIVIL FACULTIES"
+                         android:textColor="@color/red2"
+                         android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="D.R A.K.POONIA"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="Associate Professo"
+                    android:textSize="18sp"/>
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="akpoonia.che@nitrr.ac.in"
+                     android:autoLink="email"
+                     android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fac8"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="D.R A.K.POONIA"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="Associate Professo"
+                    android:textSize="18sp"/>
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                     android:textColorLink="@color/purple_700"
+                    android:text="akpoonia.che@nitrr.ac.in"
+                     android:autoLink="email"
+                     android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fac9"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="D.R A.K.POONIA"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/black"
+                    android:text="Associate Professo"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorLink="@color/purple_700"
+                    android:layout_weight="1.5"
+                    android:text="akpoonia.che@nitrr.ac.in"
+                    android:autoLink="email"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/fac10"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    
+
+</androidx.core.widget.NestedScrollView>
